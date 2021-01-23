@@ -10,7 +10,8 @@ WEEK 1
 
 Structure the index html page with the following components:-
 
-- collapsable nav bar [ so it works on both small (mobile sized) browsers *AND* desktop browsers ] [ALEX FRIDAY]
+- collapsable nav bar [ so it works on both small (mobile sized) browsers *AND* desktop browsers ] 
+[ALEX FRIDAY] {DONE SATURDAY MORNING, Sorry for the delay!}
 
 - setup the main page with a bootstrap container div, inside that a row div, then a col-md-12 div [SAM SATURDAY]
 
