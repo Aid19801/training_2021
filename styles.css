@@ -2,3 +2,9 @@ h1 {
     text-align: center; 
 }
 /* I've centered the title just to start our own CSS file */
+
+.container {
+    margin-top: 10px;
+}
+/* I've taken the style attribute from the HTML to the CSS. Makes the HTML cleaner */
+
