@@ -23,6 +23,21 @@ Structure the index html page with the following components:-
 
 - add a javascript console log to the script.js [SAM WEDS]
 
+WEEK 2
+
+- Add a custom font to the project. You can use Google Fonts (nice and easy) or another option if you can find one (try googling "Open Source Fonts" and then "How to use Google Fonts in CSS / HTML"). Then use that new font for the H1 in Jumbotron - [SAM FRI]
+
+- Add a background image to the Jumbotron. For bonus points this should be centered and the centre of the image visible whatever the size of the browser window - [ALEX SAT]
+
+- Using Bootstrap, add a responsive row of 3 squares, each one has a Description, a Price per night, a location (eg. Devon or London or Brighton). Border around the squares so we can see them, the text inside the squares to be neatly inside the squares, none of it going over/past the border. [SAM SUN]
+
+- Put an image of a cottage, flat, house or dungeon... into each of the 3 squares. The image should remain centered and the centre of the image should always be visible no matter the size of the browser window [ALEX MON]
+
+- Add an onclick attribute to each holiday-venue box/square. It should be handed a function that console logs out an `id`, a `town` and a `price` for the box/venue. Hint: this will require a new function in your script.js, the onclick attribute and for you to google how to pass arguments in a basic way to a function that is then itself handed to the click handler. So basically, click the name/town/price/box or whatever, and it should log out in the console the ID, Price, Town. [SAM TUE] 
+
+- Add a footer (bootstrap or not, your choice). It should be responsive, contain some junk information about where AidBnB offices are, a london phone number, and a few nonsense blog titles or legal bits or something. [ALEX WED]
+
+
 If you get stuck:
 
 Google things.
