@@ -34,3 +34,42 @@ h1 {
 }
 /* I've taken the style attribute from the HTML to the CSS. Makes the HTML cleaner */
 
+.square-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  position: relative;
+  flex-basis: calc(33.333% - 10px);
+  margin: 5px;
+  border: 3px solid;
+  box-sizing: border-box;
+}
+
+.square::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.square .content {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+
+  display: flex;               /* added for centered text */
+  justify-content: center;     /* added for centered text */
+  align-items: center;         /* added for centered text */
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 100%;
+  justify-content: space-around !important;
+
+}

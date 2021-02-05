@@ -9,7 +9,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <!-- All 3 of this scripts above are necessary for Bootstrap 4. Alex added 2 lines missing -->
         <link rel="stylesheet" href="styles.css"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"><!-- I also added this line to customise CSS however we want-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <script type="text/javascript" src="script.js"></script><!-- I also added this line to customise CSS however we want-->
     </head>
     
     <body>
@@ -37,15 +38,56 @@
   </nav>
   
   <div class="container">
+    
     <div class="row">
       <div class="col-md-12">
         <div class="jumbotron">
           <h1 class="fade-in">Aid BnB</h1>
+          
          
         </div> 
       </div>
     </div>
+      <div class="row">
+
+        <div class="square col-md-4">
+          <div class="content flex-col" onclick="selectVenue(1, 'Devon', '£59.99');"> 
+            <span>Devon</span>
+            <p>Beautiful little cottage in a quiet village</p>
+            <h4>£59.99</h4>
+          </div>
+        </div>
+      
+        <div class="square col-md-4">
+          <div class="content flex-col" onclick="selectVenue(2, 'Cornwall', '£69.99');">
+            <span>Cornwall</span>
+            <p> Truly awful 1 bed flat in St Ives</p>
+            <h4>£69.99</h4>
+          </div>
+        </div>
+      
+        <div class="square col-md-4">
+          <div class="content flex-col" onclick="selectVenue(3, 'Brighton', '£79.99');">
+            <span>Brighton</span>
+            <p>Hotel booking for 1,2,3 and 4 people</p>
+            <h4>79.99</h4>
+          </div>
+        </div>
+        
+        
+
+    </div>
+
+
+
+
+    
   </div>
+</div>
+
+
+    
+ 
 
   
  
