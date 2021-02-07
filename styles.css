@@ -73,3 +73,9 @@ h1 {
   justify-content: space-around !important;
 
 }
+
+.jumbotron {
+  background-color: none !important;
+  background-image: url(images/AdeJumbotron.png);
+  background-size: cover;
+}
