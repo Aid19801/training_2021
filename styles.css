@@ -9,7 +9,6 @@ h1 {
 	-webkit-animation: fade-in 4s linear 1s both;
 	        animation: fade-in 4s linear 1s both;
 }
-/* Animation Part 1: class declaration */
 
 @-webkit-keyframes fade-in {
     0% {
@@ -27,12 +26,10 @@ h1 {
       opacity: 1;
     }
   }
-/* Animation Part 2: keyframes */
 
 .container {
     margin-top: 10px;
 }
-/* I've taken the style attribute from the HTML to the CSS. Makes the HTML cleaner */
 
 .square-container {
   margin-top: 50px;
@@ -75,7 +72,64 @@ h1 {
 }
 
 .jumbotron {
-  background-color: none !important;
-  background-image: url(images/AdeJumbotron.png);
+  background-color: transparent !important;
+  background: url(images/AdeJumbotron.png) center no-repeat;
   background-size: cover;
+}
+
+.devon {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devon::before {  
+    content: "";
+    background: url(images/DevonCottageSquare.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.cornwall {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cornwall::before {
+  content: "";
+  background: url(images/UglyHouseSquare.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.brighton {
+  position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brighton::before {
+  content: "";
+  background: url(images/HotelBrightonSquare.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
 }
