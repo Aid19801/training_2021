@@ -77,7 +77,7 @@ h1 {
 }
 
 .jumbotron {
-  background-color: transparent !important;
+  background-color: transparent;
   background: url(images/AdeJumbotron.png) center no-repeat;
   background-size: cover;
 }
@@ -125,6 +125,14 @@ h1 {
   bottom: 0px;
   left: 0px;
   opacity: 0.3;
+}
+
+.brighton:hover::before,
+.devon:hover::before,
+.cornwall:hover:before 
+{
+  -webkit-animation: fade-in 250ms linear 0s both;
+	        animation: fade-in 250ms linear 0s both;
 }
 
 .lastDiv {
