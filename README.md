@@ -37,6 +37,31 @@ WEEK 2
 
 - Add a footer (bootstrap or not, your choice). It should be responsive, contain some junk information about where AidBnB offices are, a london phone number, and a few nonsense blog titles or legal bits or something. [ALEX WED]
 
+WEEK 3
+
+- Add the same effect i have for my 12 column venue box (fade in and out and change font colour to white/black) - add this to the other proper 3 boxes [SAM]
+
+- Try to get the parallax effect on the jumbotron image [ALEX]
+
+- Make the 3 boxes fade in to colour and fade out to black n white [SAM]
+
+- Add a shopping cart div/element on the left hand side of the page [SAM]
+
+- When page becomes smaller (page < 600px ) then cart appears at the bottom of page [ALEX]
+
+- Add a new element that
+    has an image on the right
+    has big promo text on the left saying something like "Bookings 4 Lyfe" or "Yolo Breaks"
+    stacks responsively when the window is less than 600px [SAM]
+
+
+- INSTALLING VIA YOUR TERMINAL | Google and find a way to install `Node JS` and `NPM`
+
+- INSTALLING VIA YOUR TERMINAL | Google and find a way to install `create-react-app`
+
+- IMPORTANT - find a 1.5hrs to complete this course... 
+https://www.youtube.com/watch?v=hdI2bqOjy3c
+
 
 If you get stuck:
 
