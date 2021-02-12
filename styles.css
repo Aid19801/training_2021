@@ -15,8 +15,8 @@
 
 .hover-fx-box {
   position: relative;
-  width: 640px;
-  height: auto;
+  height: 100%;
+  contain: content;
 }
 
 .hover-fx-box:hover {
@@ -25,6 +25,8 @@
 .hover-fx-img {
   opacity: 0.3;
   transition: .3s;
+  height: 100%;
+  width: auto;
 }
 
 .hover-fx-img:hover {
@@ -108,17 +110,7 @@ p {
 
 .square {
   position: relative;
-  flex-basis: calc(33.333% - 10px);
-  margin: 5px;
-  border: 3px solid;
-  box-sizing: border-box;
-  
-}
-
-.square::before {
-  content: '';
-  display: block;
-  padding-top: 100%;
+  height: 400px;
 }
 
 .square .content {
@@ -164,7 +156,7 @@ p {
 
 
 
-.devon::before {  
+.devon {  
     content: "";
     background: url(images/DevonCottageSquare.jpg) center no-repeat;
     background-size: cover;
@@ -177,7 +169,7 @@ p {
     
 }
 
-.cornwall::before {
+.cornwall {
   content: "";
   background: url(images/UglyHouseSquare.jpg) center no-repeat;
   background-size: cover;
@@ -189,7 +181,7 @@ p {
   opacity: 0.3;
 }
 
-.brighton::before {
+.brighton {
   content: "";
   background: url(images/HotelBrightonSquare.jpg) center no-repeat;
   background-size: cover;
@@ -200,15 +192,6 @@ p {
   left: 0px;
   opacity: 0.3;
 }
-
-.brighton:hover::before,
-.devon:hover::before,
-.cornwall:hover:before 
-{
-  -webkit-animation: fade-in 250ms linear 0s both;
-	        animation: fade-in 250ms linear 0s both;
-}
-
 
 
 .lastDiv {
