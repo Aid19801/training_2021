@@ -112,6 +112,7 @@ p {
   margin: 5px;
   border: 3px solid;
   box-sizing: border-box;
+  
 }
 
 .square::before {
@@ -150,6 +151,8 @@ p {
   background-size: cover;
 }
 
+
+
 .devon,
 .cornwall,
 .brighton {
@@ -158,6 +161,8 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .devon::before {  
     content: "";
@@ -169,6 +174,7 @@ p {
     bottom: 0px;
     left: 0px;
     opacity: 0.3;
+    
 }
 
 .cornwall::before {
@@ -203,9 +209,13 @@ p {
 	        animation: fade-in 250ms linear 0s both;
 }
 
+
+
 .lastDiv {
   height: 400px; /* Last div before footer to give some scrolling space */
 }
+
+
 /*==================== 
   Footer 
 ====================== */

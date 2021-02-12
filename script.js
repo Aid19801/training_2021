@@ -24,3 +24,4 @@ function mouseHasLeft() {
     fadeToWhite[i].style.color = "black";
   }
 }
+
