@@ -14,16 +14,18 @@
 }
 
 .hover-fx-box {
+  opacity: 0.3;
   position: relative;
   height: 100%;
   contain: content;
+  transition: 0.3s;p
 }
 
 .hover-fx-box:hover {
 
 }
 .hover-fx-img {
-  opacity: 0.3;
+  /* opacity: 0.3; */
   transition: .3s;
   height: 100%;
   width: auto;
@@ -76,28 +78,6 @@ p {
     font-size: 0.75rem;
 }
 
-.fade-in {
-	-webkit-animation: fade-in 4s linear 1s both;
-	        animation: fade-in 4s linear 1s both;
-}
-
-@-webkit-keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
 .container {
     margin-top: 10px;
 }
@@ -111,6 +91,7 @@ p {
 .square {
   position: relative;
   height: 400px;
+  contain: content;
 }
 
 .square .content {
