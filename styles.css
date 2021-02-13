@@ -29,18 +29,20 @@
 
 .venue-details {
   position: absolute;
-  top: 50px;
+  top: 1px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   transition: .3s;
   opacity: .3;
 }
 
 .venue-details .venue-detail {
-  color: white;
+  color: white !important;
 }
 
 h1 {
@@ -123,51 +125,14 @@ p {
 
 
 
-.devon,
+/* .devon,
 .cornwall,
 .brighton {
   position: relative; 
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-.devon {  
-    content: "";
-    background: url(images/DevonCottageSquare.jpg) center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-
-.cornwall {
-  content: "";
-  background: url(images/UglyHouseSquare.jpg) center no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-}
-
-.brighton {
-  content: "";
-  background: url(images/HotelBrightonSquare.jpg) center no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-}
+} */
 
 
 .lastDiv {
