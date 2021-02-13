@@ -13,26 +13,18 @@
   align-items: center;
 }
 
-.hover-fx-box {
-  opacity: 0.3;
+.venue-box {
   position: relative;
   height: 100%;
   contain: content;
-  transition: 0.3s;p
+  transition: 0.3s;
 }
 
-.hover-fx-box:hover {
-
-}
-.hover-fx-img {
-  /* opacity: 0.3; */
+.venue-img {
+  opacity: 0.3;
   transition: .3s;
   height: 100%;
   width: auto;
-}
-
-.hover-fx-img:hover {
-  opacity: 1;
 }
 
 .venue-details {
@@ -44,6 +36,11 @@
   align-items: center;
   width: 100%;
   transition: .3s;
+  opacity: .3;
+}
+
+.venue-details .venue-detail {
+  color: white;
 }
 
 h1 {
@@ -112,7 +109,7 @@ p {
 .flex-col {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100%;
   justify-content: space-around !important;
 
@@ -146,8 +143,6 @@ p {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.3;
-    
 }
 
 .cornwall {
